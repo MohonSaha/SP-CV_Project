@@ -1,0 +1,123 @@
+/* Errage all deffault margin and padding {RESET CODE} */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #eee;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+    background-color: #E4F9F5;
+    /* background-color: blueviolet; */
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+
+}
+.profile-image{
+width: 140px;
+height: 150px;
+border-bottom: 5px solid green;
+border-top: 5px solid rgb(255, 0, 0);
+border-radius: 50%;
+float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #11999e;
+}
+.header-contract{
+    float: right;
+    padding: 30px;
+}
+.header-contract a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.header-contract a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+
+}
+
+/* Start personal section area */
+#personal-section{
+
+}
+.content{
+    margin-bottom: 30px;
+}
+.left{
+    width: 30%;
+    float: left;
+}
+.right{
+    width: 70%;
+    float: left;
+}
+.common-hr{
+    border: 1px solid black;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+.right a{
+    text-decoration: none;
+    color: teal;
+    margin-bottom: 10px;
+}
+.right a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.right ul{
+    margin-bottom: 10px;
+}
+.right ul{
+    margin-left: 20px;
+}
+
+/* Education section area  */
+.edu-left{
+    float: left;
+    width: 45%;
+}
+.edu-right{
+    float: right;
+    width: 45%;
+}
+
+/* start footer area  */
+.footer-container{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.footer-container a{
+    color: wheat;
+    text-decoration: none;
+    margin: 20px;
+}
+.footer-container p{
+    color: wheat;
+    text-decoration: none;
+    margin-top: 20px;
+}
